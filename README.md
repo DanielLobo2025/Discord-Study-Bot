@@ -1,4 +1,4 @@
-# discordstudybot
+# Discord Study Bot
 
 ## Summary
 

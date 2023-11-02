@@ -2,8 +2,9 @@ from discord.ext import commands, tasks
 import discord
 import datetime
 from dataclasses import dataclass
+#For this file I had time to develop it and make it very easy for others to read it because I was working with a fellow student on it
 
-BOT_TOKEN = "MTE0MzU4MzEzOTQ5OTg3NjQwMg.Gfj0R5.WDQiONWNWnckIEjck8GjWqGlVFl3D2LhN9CDaE"
+BOT_TOKEN = "MTE0MzU4MzEzOTQ5OTg3NjQwMg.Gfj0R5.WDQiONWNWnckIEjck8GjWqGlVFl3D2LhN9CDaE" #This token does not work anymore due to the fact that others would be able to take control of my bot
 CHANNEL_ID = 1143598078348251226
 MAX_SESSION_TIME_MINUTES = 2
 
@@ -31,7 +32,7 @@ async def break_reminder():
         return
     
     channel = bot.get_channel(CHANNEL_ID)
-    await channel.send(f"**Take a break!** You've been studying for {MAX_SESSION_TIME_MINUTES} minutes")
+    await channel.send(f"**Take a break!** You've been studying for {MAX_SESSION_TIME_MINUTES} minutes") 
 
 @bot.command()
 async def hello(ctx):

@@ -1,14 +1,5 @@
 # discordstudybot
 
-Learning how to use git and the discord API to create bots for servers. Starting off with something basic, creating a study bot that with a command will track how long you have been studying for and will remind you to have a break every 25 minutes.
-You have the ability to end the study session as well. 
+## Summary
 
-Commands so far
-
-!start (starts study session)
-!end (Ends study session)
-!hello (Returns hello)
-!add  (adds any amount of intergers, ex. !add 2 3 5 1, it will return the result)
-
-I will be adding other features soon this is just version 1, I am also trying to learn how to use git as I will need to know it on the job. 
-
+I am still developing and changing this project. I used python and Node.js to create a study bot which keeps track of study sessions and informs you when to take breaks. It follows the pomodoro method where you do 25 minutes of work then take a 5 minute break then contine. You can end the session and see how long you studied for. I recently added the ability to ask chatgpt questions from the discord server and it will reply with the answer to said question. It uses chatgpt 3.5 turbo to answer these questions. 
